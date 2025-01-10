@@ -13,7 +13,7 @@ The target variable for the model is `IS_SUCCESSFUL`, which indicates whether a 
 
 #### **Compiling, Training, and Evaluating the Model**
 
-The neural network model included two hidden layers with 8 neurons in the first layer and 5 neurons in the second layer. The ReLU activation function was used for the hidden layers, and the sigmoid activation function was applied to the output layer for binary classification. These choices were made to keep the model simple but effective. The initial model achieved an accuracy of 73%, which was below the desired performance target. To improve the model, several steps were taken, including adjusting the number of neurons, experimenting with additional hidden layers, testing alternative activation functions, modifying batch sizes and epochs, and normalizing the input data.
+The first neural network model included two hidden layers with 8 neurons in the first layer and 5 neurons in the second layer. The ReLU activation function was used for the hidden layers, and the sigmoid activation function was applied to the output layer for binary classification. These choices were made to keep the model simple but effective. The initial model achieved an accuracy of 73%, which was below the desired performance target, which is 75%. I  tried adjusting the number of neurons and experimenting with additional hidden layers, but all 3 attempts failed and would not go any higher than 73%.
 
 ---
 
